@@ -14,7 +14,7 @@
                 <div class="logo">
                     <img src="photos/logoo.png" alt="Solax " class="w-45 h-12 ml-5 mt-2">
                 </div>
-                <nav class="flex space-x-4 p-5  ">
+                <nav class="flex space-x-4 p-5 mr-120">
                     <a href="#" class="text-black-400 hover:underline">Home</a>
                     <a href="#first" class="text-black-400 hover:underline">Benefits</a>
                     <a href="#second" class="text-black-400 hover:underline">Services</a>
@@ -22,9 +22,7 @@
                     <a href="#contacts" class="text-black-400 hover:underline">Contact</a>
                 </nav>
         
-                <div class="flex items-center justify-end mt-0">
-                 <button class="bg-green-900 text-white px-4 py-2 mr-20 mb-5 rounded-lg hover:bg-green-600">Contact Us</button>
-                </div>
+                
             </div>
         </header>
 
@@ -33,7 +31,7 @@
         <p class="text-black-400 rounded-lg shadow-lg pl-5 bg-green-300 w-70">New Energy For Our System</p><br>
             <h1 class="bg-white text-green-900 text-7xl  font-bold">Clean Renewable Limitless Energy</h1><br>
             <p>Discover smart solar solutions and renewable energy systems designed to cut your electricity costs while building a sustainable future</p><br>
-            <button class="bg-green-900 text-white px-4 py-2 shadow-lg rounded-lg hover:bg-green-600 cursor-pointer">Get Started</button>
+            <button class="bg-green-900 text-white px-4 py-2 shadow-lg rounded-lg hover:bg-green-600 cursor-pointer"><a href="#form"> Get Started </a></button>
             <div class="flex items-center justify-between shadow-lg bg-green-300 h-25 w-150 mt-4 p-10">
                 <div class="happy">
                     <h2 class="text-2xl text-green-900 font-bold">4K+</h2>
@@ -84,19 +82,19 @@
               <i class="fa-solid fa-hand-sparkles text-4xl text-green-700"></i><br>
                 <h3 class="text-2xl font-bold mt-3 mb-2">Solar Maintainance and cleaning</h3>
                 <p>Routine inspections, debris removal and performance checks to maintain panel efficiency.Includes inverter replacements and system diagnostics to prolong life span.</p><br>
-                <a href="#" class="text-green-700 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
+                <a href="#third" class="text-green-700 mt-5 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
             </div>
             <div class="w-150 bg-white-900 p-5 mt-10 ">
-               <i class="fa-regular fa-badge-check text-4xl text-green-700"></i>
+              <i class="fa-solid fa-hand-sparkles text-4xl text-green-700"></i><br>
                 <h3 class="text-2xl font-bold mt-3 mb-2">Solar Panel Installation</h3>
                 <p>Professional installation of photovoitaic(PV) systems on rooftops or ground mounts. ensuring optimal placement wiring and connection to the grid or battery storage for maximum efficiency.</p><br>
-                <a href="#" class="text-green-700 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
+                <a href="#third" class="text-green-700 mt-12 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
             </div>
             <div class="w-150 bg-white-900 p-5 mt-10">
-              <i class="fa-solid fa-battery-bolt"></i>
+              <i class="fa-solid fa-hand-sparkles text-4xl text-green-700"></i><br>
                 <h3 class="text-2xl font-bold mt-3 mb-2">Solar Battery Storage Solutions</h3>
                 <p>Integration of lithium-ion or lead-acid batteries to store excess solar energy for night time or grid outages, enhancing energy independence.</p><br>
-                <a href="#" class="text-green-700 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
+                <a href="#third" class="text-green-700 mt-12 underline">Find Out More <i class="fa-solid fa-arrow-right text-green-600"></i></a>
             </div>
         </div>
      </section>
@@ -140,7 +138,11 @@
                 <div class="text-center text-white">
                     <h2 class="text-3xl font-bold mb-4">Ready to Go Solar?</h2>
                     <p class="mb-6">Contact us today for a free consultation and let us help you harness the power of the sun!</p>
-                    <button class="bg-green-900 text-white px-6 py-3 rounded-lg hover:bg-green-600 cursor-pointer">Get in Touch</button>
+                    <form id="form" class="flex flex-col items-center">
+                        <input type="email" placeholder="Enter your Email" class="mb-3 p-2 bg-white text-black rounded-lg w-80" required>
+                        <textarea placeholder="Message" class="mb-3 p-2 rounded-lg w-80 h-32 bg-white text-black" required></textarea>
+                    <button class="bg-green-900 text-white px-6 py-3 rounded-lg hover:bg-green-600 cursor-pointer"><a href="mailto:solax@support.com"> Get in Touch </a></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -172,8 +174,8 @@
             <div>
                 <h5 class="text-1xl font-bold mt-5 mb-2">Contact Us</h5>
                 <ul class="list-none">
-                    <li><a href="#" class="text-white hover:underline">Tel:+77 5524 863</a></li>
-                    <li><a href="#" class="text-white hover:underline">Email:Solax@support.com</a></li>
+                    <li><a href="tel:+77 5524 863" class="text-white hover:underline">Tel:+77 5524 863</a></li>
+                    <li><a href="mailto:solax@support.com" class="text-white hover:underline">Email:solax@support.com</a></li>
                     <li>Mon-Sat 8am-7pm Gmt</li>
                 </ul>
             </div>
